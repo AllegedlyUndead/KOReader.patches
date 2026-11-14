@@ -14,13 +14,25 @@
 
 A KOReader user patch that shows your reading streak in the status bar while you read, so you can see it without leaving the book. You choose what to show from KOReader's own menu: the daily streak, the weekly streak, both, or nothing.
 
-Examples:
-
-- `⚡ 12 days`
-- `⚡ 3 weeks`
-- `⚡ 12 days | 3 weeks`
-
 The text is appended to the end of whatever the status bar already shows (page number, time, battery, etc.).
+
+## What it looks like
+
+**Daily streak** (default): `⚡ 12 days`
+
+<img src="screenshots/daily.png" alt="Status bar showing the daily streak" width="350">
+
+**Weekly streak:** `⚡ 3 weeks`
+
+<img src="screenshots/weekly.png" alt="Status bar showing the weekly streak" width="350">
+
+**Daily + weekly:** `⚡ 12 days | 3 weeks`
+
+<img src="screenshots/both.png" alt="Status bar showing both the daily and weekly streak" width="350">
+
+**Hidden:** the status bar returns to normal
+
+<img src="screenshots/none.png" alt="Status bar with the streak hidden" width="350">
 
 ## What it does
 
@@ -48,7 +60,12 @@ You can check that the patch loaded under **Patch Management**.
 
 ## Choosing what to show
 
-While reading, open the top menu and go to **Settings (cog) → Status bar → Reading streak** (the entry is at the bottom of the Status bar list). Pick one:
+While reading, open the top menu and go to **Settings (cog) → Status bar → Reading streak** (the entry is at the bottom of the Status bar list).
+
+<img src="screenshots/Statusbar.png" alt="Status bar menu with the Reading streak option" width="350">
+<img src="screenshots/readingstreak.png" alt="Reading Streak plugin menu" width="350">
+
+Pick one:
 
 | Option | Shows |
 |---|---|
