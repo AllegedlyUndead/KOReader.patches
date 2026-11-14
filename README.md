@@ -18,15 +18,15 @@ The text is appended to the end of whatever the status bar already shows (page n
 
 ## What it looks like
 
-**Daily streak** (default): `⚡ 12 days`
+**Daily streak** (default): `⚡ 1 day`
 
 <img src="screenshots/daily.png" alt="Status bar showing the daily streak" width="350">
 
-**Weekly streak:** `⚡ 3 weeks`
+**Weekly streak:** `⚡ 2 weeks`
 
 <img src="screenshots/weekly.png" alt="Status bar showing the weekly streak" width="350">
 
-**Daily + weekly:** `⚡ 12 days | 3 weeks`
+**Daily + weekly:** `⚡ 1 day | 2 weeks`
 
 <img src="screenshots/both.png" alt="Status bar showing both the daily and weekly streak" width="350">
 
