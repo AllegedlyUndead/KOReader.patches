@@ -24,15 +24,7 @@ Requirements:
     (https://github.com/advokatb/readingstreak.koplugin)
   * Tools > Reading Streak > Settings > UI Integration > "Export to Project Title"
     turned on (required: the plugin only publishes its data to PluginShare when
-    this is on, and the patch shows nothing without it)
-
-Data sources:
-  * Daily streak: PluginShare.readingstreak (current_streak, getStreakText),
-    which the plugin's own Project: Title integration reads.
-  * Weekly streak: uses a weekly field from PluginShare.readingstreak if the
-    plugin publishes one (see WEEK_FIELDS below). If not, it is calculated from
-    the reading dates saved in reading_streak.lua. In testing, this matched the
-    plugin's own weekly streak (see README for edge cases).
+    this is on, and the patch shows nothing without it).
 --]]
 
 local logger = require("logger")
